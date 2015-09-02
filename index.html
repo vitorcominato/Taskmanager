@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!--  Estilos do Site-->
+    <link href="css/style.css" media="all" type="text/css" rel="stylesheet" /> 
+    <link href="css/icomoon.css" media="all" type="text/css" rel="stylesheet" /> 
+    <link href="css/lib/bootstrap/bootstrap.min.css" media="all" type="text/css" rel="stylesheet" /> 
+    
+    <link href="css/lib/bootstrap/bootstrap-datetimepicker.min.css" media="all" type="text/css" rel="stylesheet" />
+    
+    <title>Agendor - Task Manager</title>
+</head>
+<body>
+    <div class="content">
+        <form id="taskForm">
+            <div class="addTask">
+                <input type="text" value="Write something..." id="txtTask"/>
+            </div>
+            <div class="bottomLine">
+                <div class="dateBox">
+                    <div class="displayDate" id="dateNewTask"></div>
+                    <input id="datepicker" class='dateTimePicker' type="text"/>
+                </div>
+                <button class="btnAdd" id="btnAddTask">ADD</button>
+            </div>
+        </form>
+
+        <div class="taskList"></div>
+    </div>
+    
+</body>
+<!-- Javascript -->
+<script type="text/javascript" src="js/lib/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/lib/moment.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="js/task.js"></script>
+</html>
